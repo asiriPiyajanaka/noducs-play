@@ -105,11 +105,10 @@ const TreeBoxViewer: React.FC = () => {
   return (
     <div className="max-w-4xl mx-auto p-6 font-sans">
       <h1 className="text-3xl font-bold text-center text-blue-500">
-        Noducs State Viewer
+        noducs State Viewer V.0.0.1
       </h1>
-      <p className="text-center text-gray-500 italic mt-2">
-        A tech-inspired visualization of your state. Updates are highlighted
-        with a green background.
+      <p className="text-center text-white italic mt-2">
+        React + Vite + noducs
       </p>
       <div className="mt-6 border border-gray-300 rounded-lg p-4">
         {renderTree(state)}
