@@ -103,7 +103,7 @@ const TreeBoxViewer: React.FC = () => {
   };
 
   return (
-    <div className="max-w-4xl mx-auto p-0 md:p-6 font-sans">
+    <div className="max-w-4xl mx-auto p-0 md:p-6 font-sans bg-black text-white">
       <div className="flex justify-center mb-3 mt-2">
         <img
           src="https://wtemrwnjzqbbmgxpxrvf.supabase.co/storage/v1/object/public/cat_designs/public/noducs1000.png"
